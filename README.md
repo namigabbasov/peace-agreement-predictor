@@ -126,7 +126,7 @@ Repository includes:
 - `rf_feature_model.joblib`  
 - `feature_names.json`  
 - `feature_descriptions.json`
-
+Link: https://peace-agreement-predictor-grobebar528gpzpsoxy5vd.streamlit.app/ 
 ---
 
 ## Future Work
