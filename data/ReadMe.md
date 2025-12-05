@@ -126,4 +126,4 @@ The full text of peace agreements constitutes the **unstructured independent var
 ## Notes for This Repository
 
 - **Raw data is not included** in the repository due to licensing and size constraints.  
-  Place raw files in:  
+  Place raw files in: https://www.peaceagreements.org/
