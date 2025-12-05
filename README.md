@@ -167,44 +167,10 @@ peace-agreement-predictor/
 ├── feature_descriptions.json
 │
 ├── data/
-│   ├── raw/                  # raw data (not committed; large/sensitive files excluded)
-│   ├── processed/            # cleaned datasets for modeling
-│   └── README.md             # data dictionary + descriptions
+│   ├── raw/                             
+│   └── README.md           
 │
-├── src/                      # source code (modularized scripts)
-│   ├── __init__.py
-│   ├── preprocessing.py
-│   ├── features.py
-│   ├── models.py
-│   └── predict.py
 │
 ├── scripts/                  # scripts for experiments & training workflows
-│   ├── ML_workflow_notebook.ipynb
-│   └── LLM_text_classification.ipynb
-│
-├── notebooks/                # EDA and exploratory notebooks
-│   └── exploratory_analysis.ipynb
-│
-├── models/                   # trained models and transformer checkpoints
-│   ├── rf_feature_model.joblib
-│   └── roberta_finetuned/
-│
-├── tests/                    # unit and integration tests
-│   └── test_models.py
-│
-├── docs/                     # extended documentation
-│   ├── API.md
-│   ├── USAGE.md
-│   └── INSTALL.md
-│
-├── .github/                  # GitHub Actions workflows
-│   └── workflows/
-│       └── ci.yml
-│
-├── docker/                   # Docker build configuration
-│   └── Dockerfile
-│
-└── examples/                 # sample inputs, predictions, and demo files
-    └── example_inputs.json
-
-
+│   ├── peace.ipynb
+│   └── LLMs.ipynb
