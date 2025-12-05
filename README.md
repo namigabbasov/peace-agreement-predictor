@@ -154,6 +154,7 @@ This generative interpretability extension aims to bridge the gap between quanti
 
 ## Repository Structure
 
+```text
 peace-agreement-predictor/
 ├── README.md
 ├── requirements.txt
